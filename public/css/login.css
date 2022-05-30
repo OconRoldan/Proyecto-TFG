@@ -1,0 +1,34 @@
+body  {
+    background-image: url(https://i0.wp.com/hipertextual.com/wp-content/uploads/2021/06/Windows-11-Wallpaper-1-1-scaled.jpg?fit=2560%2C1600&quality=50&strip=all&ssl=1);    
+    background-size:cover;
+   
+}
+
+
+table {    
+    background-size:cover;
+    background-image: url(https://i0.wp.com/hipertextual.com/wp-content/uploads/2021/06/Windows-11-Wallpaper-1-1-scaled.jpg?fit=2560%2C1600&quality=50&strip=all&ssl=1);
+    background-size:490%;
+    opacity: 0.85;
+    border-spacing: 0; 
+    width: 365px; 
+    height: 500px;
+    border-radius: 10px; 
+   
+}
+
+
+
+.boton {
+    width: 12%;    
+    border: 4px solid #000000; /*anchura, estilo y color borde*/
+    padding: 0px; /*espacio alrededor texto*/
+    background-color: #000000c5; /*color botón*/
+    color: #000000; /*color texto*/
+    text-decoration: none; /*decoración texto*/
+    text-transform: uppercase; /*capitalización texto*/
+    font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+    border-radius: 50px; /*bordes redondos*/
+    }
+
+

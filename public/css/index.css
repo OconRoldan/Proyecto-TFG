@@ -1,0 +1,28 @@
+body  {
+    background-image: url(https://www.stjames.es/sites/default/files/media/im_ii.png);    
+    background-size:50%;
+}
+
+.botonE {
+    width: 40%;    
+    border: 12px solid #cabcbc; /*anchura, estilo y color borde*/
+    padding: 0px; /*espacio alrededor texto*/
+    background-color: #2b7db4c5; /*color botón*/
+    color: #7ed0ff; /*color texto*/
+    text-decoration: none; /*decoración texto*/
+    text-transform: uppercase; /*capitalización texto*/
+    font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+    border-radius: 50px; /*bordes redondos*/
+    }
+
+    .botonB {
+        width: 40%;    
+        border: 12px solid #cabcbc; /*anchura, estilo y color borde*/
+        padding: 0px; /*espacio alrededor texto*/
+        background-color: #b42b2bc5; /*color botón*/
+        color: #c00909; /*color texto*/
+        text-decoration: none; /*decoración texto*/
+        text-transform: uppercase; /*capitalización texto*/
+        font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+        border-radius: 50px; /*bordes redondos*/
+        }

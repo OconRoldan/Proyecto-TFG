@@ -1,0 +1,384 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Test Inteligencia</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+
+<body>
+    <center>
+        <div id="contenido" style="border: 4px; color: rgb(39, 3, 3); font-size: x-large;">
+            </br></br>
+            <table width="900" cellspacing="1" cellpadding="3" border="1" bgcolor="#1E679A">
+                <tr>
+                    <td>
+                        <font color="#FFFFFF" face="arial, verdana, helvetica">
+                            <center>
+                                <h1 style="color: rgb(48, 22, 134);"><b><u> &#x1f9e0;&nbsp;TEST DE
+                                            INTELIGENCIA&nbsp;&#x1f9e0;</u></b></h1>
+                            </center>
+                        </font>
+                    </td>
+                </tr>
+                <tr>
+                    <td bgcolor="#ffffcc">
+                        <font face="arial, verdana, helvetica">
+                            <center>
+                                En el interior de este recuadro se podría detallar:<br><br>
+                                - Las instrucciones a seguir según el tipo de test utilizado.<br>
+                                - Una breve descripción de su finalidad.<br>
+                                - Algún mensaje que se quiera transmitir o cualquier otra descripción que considerase
+                                oporturna la persona que va hacer uso del mismo.<br><br>
+                                (El test utilizado para el ejemplo está más enfocado en uno de inteligencia, según las
+                                necesidades del cliente se podría
+                                adaptar utilizando una metodología similar)
+                            </center>
+                        </font>
+                    </td>
+                </tr>
+            </table>
+
+            <i class="bi bi-activity"></i>
+
+            <br></br></br>
+            <form method="POST" action="http://localhost:4000/envio-examen">
+
+                <table width="470" border="" cellspacing="1" cellpadding="2" border="1" bgcolor=#ffffcc>
+                    <tr>
+                        <td bgcolor="#1E679A">
+                            <font color="#FFFFFF" face="arial, verdana, helvetica">
+                                <h2
+                                    style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: rgb(48, 22, 134); text-align: center; ">
+                                    <b> &#x1f464;&nbsp;DATOS PERSONALES&nbsp; &#x1f464;</b>
+                                </h2>
+                            </font>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td bgcolor="#ffffcc">
+                            <font face="arial, verdana, helvetica">
+                                <center>
+                                    <br>
+
+                                    <label style="color: black;"><b>Nombre: &nbsp; &nbsp;</b><input type="text"
+                                            name="nombre" required></label>
+                                    <br></br>
+                                    <label style="color: black;"><b>Apellidos: &nbsp;</b><input type="text"
+                                            name="apellidos" required></label>
+                                    <br></br>
+                                    <label style="color: black;"><b>Municipio: &nbsp;</b><input type="text"
+                                            name="municipio" required></label>
+                                    <br></br>
+
+
+                                </center>
+                            </font>
+                        </td>
+                    </tr>
+                </table>
+                </br></br></br>
+
+
+
+                <table width="400" cellspacing="1" cellpadding="3" border="1" bgcolor="#1E679A">
+                    <tr>
+                        <td>
+                            <font color="#FFFFFF" face="arial, verdana, helvetica">
+                                <center>
+                                    <h2
+                                        style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: rgb(48, 22, 134); ">
+                                        <b>&#x1f4cb; &nbsp;PREGUNTAS &nbsp;&#x1f4cb;</b>
+                                    </h2>
+                                </center>
+                            </font>
+                        </td>
+                    </tr>
+                </table>
+
+                </br>
+                <table width="600" cellspacing="1" cellpadding="3" border="1" bgcolor="#ffffcc">
+                    <tr>
+                        <td>
+                            <font color="black" face="arial, verdana, helvetica">
+                                <center>
+
+
+
+                                    </br>
+                                    <p>&#x31;&#xfe0f; MANO es a Guante como CABEZA es a:</p>
+
+                                    <div>
+                                        <input type="radio" name="1p" value="a" required>
+                                        <label for="a" style="text-align: left;">Pelo</label>
+                                    </div>
+
+                                    <div>
+                                        <input type="radio" name="1p" value="b">
+                                        <label for="b">Cuello</label>
+                                    </div>
+
+                                    <div>
+                                        <input type="radio" name="1p" value="c">
+                                        <label for="c">Sombrero</label>
+                                    </div>
+
+                                    <div>
+                                        <input type="radio" name="1p" value="d">
+                                        <label style="color: rgb(96, 145, 115);" for="d">Dejar en blanco</label>
+                                    </div>
+
+                                    </br>
+                                    <p>&#x32;&#xfe0f; De estas 4 palabras, ¿Cuál es la intrusa?:</p>
+                                    <div>
+                                        <input type="radio" name="2p" value="a" required>
+                                        <label for="a">Madrid</label>
+                                    </div>
+
+                                    <div>
+                                        <input type="radio" name="2p" value="b">
+                                        <label for="b">Roma</label>
+                                    </div>
+
+                                    <div>
+                                        <input type="radio" name="2p" value="c">
+                                        <label for="c">Valencia</label>
+                                    </div>
+
+                                    <div>
+                                        <input type="radio" name="2p" value="d">
+                                        <label style="color: rgb(96, 145, 115);" for="d">Dejar en blanco</label>
+                                    </div>
+                                    </br>
+                                    <p>&#x33;&#xfe0f; Continue la siguiente serie, 42 - 34 - 41 - 38:</p>
+                                    <div>
+                                        <input type="radio" name="3p" value="a" required>
+                                        <label for="a">40</label>
+                                    </div>
+
+                                    <div>
+                                        <input type="radio" name="3p" value="b">
+                                        <label for="b">42</label>
+                                    </div>
+
+                                    <div>
+                                        <input type="radio" name="3p" value="c">
+                                        <label for="c">50</label>
+                                    </div>
+
+                                    <div>
+                                        <input type="radio" name="3p" value="d">
+                                        <label style="color: rgb(96, 145, 115);" for="d">Dejar en blanco</label>
+                                    </div>
+                                    </br>
+                                    <p>&#x34;&#xfe0f; ¿Qué cosa es que cuanto más le quitas, <br> más grande es?:</p>
+                                    <div>
+                                        <input type="radio" name="4p" value="a" required>
+                                        <label for="a">Un avión</label>
+                                    </div>
+
+                                    <div>
+                                        <input type="radio" name="4p" value="b">
+                                        <label for="b">Un barco</label>
+                                    </div>
+
+                                    <div>
+                                        <input type="radio" name="4p" value="c">
+                                        <label for="c">Un agujero</label>
+                                    </div>
+
+                                    <div>
+                                        <input type="radio" name="4p" value="d">
+                                        <label style="color: rgb(96, 145, 115);" for="d">Dejar en blanco</label>
+                                    </div>
+                                    </br>
+                                    <p>&#x35;&#xfe0f; Encuentra el número que sigue la secuencia,<br> 7 - 9 - 13 - 15 -
+                                        20 - 22:</p>
+                                    <div>
+                                        <input type="radio" name="5p" value="a" required>
+                                        <label for="a">12</label>
+                                    </div>
+
+                                    <div>
+                                        <input type="radio" name="5p" value="b">
+                                        <label for="b">11</label>
+                                    </div>
+
+                                    <div>
+                                        <input type="radio" name="5p" value="c">
+                                        <label for="c">28</label>
+                                    </div>
+
+                                    <div>
+                                        <input type="radio" name="5p" value="d">
+                                        <label style="color: rgb(96, 145, 115);" for="d">Dejar en blanco</label>
+                                    </div>
+                                    </br>
+                                    <p>&#x36;&#xfe0f; Me ves en verano y no en invierno.<br> Estoy metido en entre las
+                                        manos,<br> ya sea abierto o cerrado. ¿Qué soy?:</p>
+                                    <div>
+                                        <input type="radio" name="6p" value="a" required>
+                                        <label for="a">Un perchero</label>
+                                    </div>
+
+                                    <div>
+                                        <input type="radio" name="6p" value="b">
+                                        <label for="b">Un abanico</label>
+                                    </div>
+
+                                    <div>
+                                        <input type="radio" name="6p" value="c">
+                                        <label for="c">Un peine</label>
+                                    </div>
+
+                                    <div>
+                                        <input type="radio" name="6p" value="d">
+                                        <label style="color: rgb(96, 145, 115);" for="d">Dejar en blanco</label>
+                                    </div>
+                                    </br>
+                                    <p>&#x37;&#xfe0f; ¿Qué es lo que se hace de noche,<br> que no se puede hacer de
+                                        día?:</p>
+                                    <div>
+                                        <input type="radio" name="7p" value="a" required>
+                                        <label for="a">Sumar</label>
+                                    </div>
+
+                                    <div>
+                                        <input type="radio" name="7p" value="b">
+                                        <label for="b">Trasnocharse</label>
+                                    </div>
+
+                                    <div>
+                                        <input type="radio" name="7p" value="c">
+                                        <label for="c">Despertar</label>
+                                    </div>
+
+                                    <div>
+                                        <input type="radio" name="7p" value="d">
+                                        <label style="color: rgb(96, 145, 115);" for="d">Dejar en blanco</label>
+                                    </div>
+                                    </br>
+                                    <p>&#x38;&#xfe0f; Una pareja de recién casados, quieren contraer<br> matrimonio pero
+                                        la iglesia está cerrada<br> ¿Cómo se casan?</p>
+                                    <div>
+                                        <input type="radio" name="8p" value="a" required>
+                                        <label for="a">No pueden</label>
+                                    </div>
+
+                                    <div>
+                                        <input type="radio" name="8p" value="b">
+                                        <label for="b">Saltando</label>
+                                    </div>
+
+                                    <div>
+                                        <input type="radio" name="8p" value="c">
+                                        <label for="c">Ya lo están</label>
+                                    </div>
+
+                                    <div>
+                                        <input type="radio" name="8p" value="d">
+                                        <label style="color: rgb(96, 145, 115);" for="d">Dejar en blanco</label>
+                                    </div>
+                                    </br>
+                                    <p>&#x39;&#xfe0f; Encuentra el número que sigue la secuencia,<br> 2 - 7 - 4 - 9 - 8
+                                        - 11:</p>
+                                    <div>
+                                        <input type="radio" name="9p" value="a" required>
+                                        <label for="a">6</label>
+                                    </div>
+
+                                    <div>
+                                        <input type="radio" name="9p" value="b">
+                                        <label for="b">5</label>
+                                    </div>
+
+                                    <div>
+                                        <input type="radio" name="9p" value="c">
+                                        <label for="c">16</label>
+                                    </div>
+
+                                    <div>
+                                        <input type="radio" name="9p" value="d">
+                                        <label style="color: rgb(96, 145, 115);" for="d">Dejar en blanco</label>
+                                    </div>
+                                    </br>
+                                    <p>&#x31;&#xfe0f;&#x30;&#xfe0f; No muerde ni ladra, pero tiene dientes<br> y la casa
+                                        guarda. ¿Qué es?:</p>
+                                    <div>
+                                        <input type="radio" name="10p" value="a" required>
+                                        <label for="a">El sol</label>
+                                    </div>
+
+                                    <div>
+                                        <input type="radio" name="10p" value="b">
+                                        <label for="b">La llave</label>
+                                    </div>
+
+                                    <div>
+                                        <input type="radio" name="10p" value="c">
+                                        <label for="c">La luna</label>
+                                    </div>
+
+                                    <div>
+                                        <input type="radio" name="10p" value="d">
+                                        <label style="color: rgb(96, 145, 115);" for="d">Dejar en blanco</label>
+                                    </div>
+                                    <br></br>
+
+
+                                    <button type="reset" value="BORRALO" class="botonB">  <b>BORRAR&nbsp;&#x274c;</b2>
+                                    </button>&nbsp;&nbsp;&nbsp;
+                                    <button type="submit" value="ENVIAR" class="botonE"><center><b>ENVIAR&nbsp;&nbsp;&#x1f4e8;</b></center>
+                                    </button>
+                                    <br></br>
+                                    
+                                </center>
+            </form>
+            </font>
+            </td>
+            </tr>
+        </div>
+        </table>
+        </br></br>
+
+        <table width="900" cellspacing="3" cellpadding="1" border="2" bgcolor=#ffffcc>
+            <tr>
+                <td>
+                    <font color="#FFFFFF" face="arial, verdana, helvetica">
+                        <center>
+                            <p style="font-size:x-large; color: rgb(4, 72, 55);"><b> MUCHAS GRACIAS POR SU PARTICIPACIÓN
+                                </b></p>
+                        </center>
+                    </font>
+                </td>
+            </tr>
+            <tr>
+                <td bgcolor="#ffffcc">
+                    <font face="arial, verdana, helvetica">
+                        <center>
+                            <a
+                                href="mailto:oconroldan@hotmail.com?cc=josecarlosmad92@gmail.com&subject=Consulta sobre el test de inteligencia">
+                                <font style="color: rgb(4, 72, 55); font-size: 100%;"><u>Para cualquier
+                                        consulta pinche&#x1f5b1;&#xfe0f;sobre este enlace y expónganos su caso
+                                        &#x270d;&#xfe0f;&#x2709;&#xfe0f;</u></font>
+                            </a>
+                        </center>
+                    </font>
+                </td>
+            </tr>
+        </table>
+        </br>
+    </center>
+
+    </form>
+</body>
+<footer>
+    <center>
+        <p style=font-size:larger;>&nbsp;2022 &copy;&nbsp;<a href="./pages/login.html">www.test.com</a> </p>
+    </center>
+</footer>
+
+</html>
