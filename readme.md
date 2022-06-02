@@ -34,7 +34,7 @@
 
 ##### FRONT
 
-- consultas.js: cargar de la base de la base de datos la información para la página de consultas.
+- consultas.js: cargar de la base de datos la información para la página de consultas.
 
 - login.js: llamada al back para realizar el login y toda la lógica relacionada.
 
@@ -42,7 +42,7 @@
 
 - controllers.js: funciones de las acciones que realizan las rutas. Todas las funciones interactúan directamente con la BBDD.
 
-- db.js: conexión de tipo a la BBDD.
+- db.js: conexión BBDD.
 
 - routes.js: declaración de las rutas. Desde aquí se llama a controllers.js, que es dónde está toda la lógica de lo que ocurre en las rutas.
   
@@ -50,9 +50,9 @@
 
 - index.js: Desde donde arranca el backend.
 
-- package-lock.json: librerrías del proyecto.
+- package-lock.json: librerías del proyecto.
 
-- package.json: Librerías para su funcionamiento y los scripts para la ejecución (nodemon: Dependencia de desarrollo que usamos para que se relanze constantemente el servidor / start: Inicialización normal).
+- package.json: Librerías para su funcionamiento y los scripts para la ejecución (nodemon: Dependencia de desarrollo que usamos para que se relance constantemente el servidor / start: Inicialización normal).
   
 
 
@@ -63,7 +63,7 @@
   
 - express: Para la ejecución de servidor
   
-- pg: para uso de la bbdd (postgresql)
+- pg: para uso de la BBDD (postgresql)
   
 - cors: permite realizar llamadas de tipo cors
 
