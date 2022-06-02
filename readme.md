@@ -10,7 +10,7 @@
 
 
 
-## Tennologías usadas:
+## Tecnologías usadas:
 
 - IDE: Visual Studio Code
 
@@ -26,6 +26,7 @@
 
 - NAMECHEAP: Dominio
   
+- MobaXTerm: terminal para conexión SSH al servidor
 
 
 
