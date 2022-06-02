@@ -2,7 +2,7 @@
 
 ## Instrucciones:
 
- - [Visualizar proyecto](https://google.com)
+ - [Visualizar proyecto](https://oconroldan.com)
 
  - Para entrar como propietario de la app: ADMIN - ADMIN
 
